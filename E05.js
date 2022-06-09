@@ -1,7 +1,7 @@
 // Author: Gabriel Machado Violante
 // Date: 07/06/2022
 
-// Function 1: Build a function in JavaScript that prints a triangle in the console
+// Function 1: Build a function in JS that prints a triangle in the console
 //drawingTriangle(10);
 function drawingTriangle(nLines){
     for (let i = 0; i < nLines; i++){
@@ -15,7 +15,7 @@ function drawingTriangle(nLines){
     }
 }
 
-// Function 2: Build a function in JavaScript that prints a chessboard in the console
+// Function 2: Build a function in JS that prints a chessboard in the console
 //chessBoard(10);
 function chessBoard(nLines){
     for (let i = 0; i < nLines; i++){
@@ -30,4 +30,12 @@ function chessBoard(nLines){
         }
         console.log(lineContent);
     }
+}
+
+// Function 3: Build a function in JS that checks if a given word is a palindrome
+palindromeCheck("HanNAh");
+function palindromeCheck(string){
+    let Word = string.toLowerCase();
+    let WordReversed = Word.split().reverse().join();
+    if (Word == WordReversed) { console.log("It is a palindrome"); }else{ console.log("It is not a palindrome") }
 }
