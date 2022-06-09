@@ -1,6 +1,10 @@
 // Author: Gabriel Machado Violante
 // Date: 07/06/2022
 
+//=======================================================================================================================================================
+
+// Part 1 - Basic Concepts
+
 // Function 1: Build a function in JS that prints a triangle in the console
 //drawingTriangle(10);
 function drawingTriangle(nLines){
@@ -37,5 +41,28 @@ palindromeCheck("HanNAh");
 function palindromeCheck(string){
     let Word = string.toLowerCase();
     let WordReversed = Word.split().reverse().join();
-    if (Word == WordReversed) { console.log("It is a palindrome"); }else{ console.log("It is not a palindrome") }
+    if (Word == WordReversed) console.log("It is a palindrome");
+    else console.log("It is not a palindrome");
 }
+
+// Function 4: Build a function in JS that prints numbers 1 to 100 with some excepions
+//differentProgram();
+function differentProgram(){
+    for (let i = 0; i < 100; i++){
+        if (i % 3 == 0 && i % 5 == 0){
+            console.log("FizzBuzz");
+        }
+        else if (i % 5 == 0){
+            console.log("Buzz");
+        }
+        else if (i % 3 == 0){
+            console.log("Fizz");
+        }
+        else{
+            console.log(i);
+        }
+    }
+}
+//===================================================================================================================================================
+
+// Part 2
