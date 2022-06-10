@@ -8,7 +8,6 @@
 // Drawing a Triangle
 
 //drawingTriangle(10);
-
 function drawingTriangle(nLines){
     for (let i = 0; i < nLines; i++){
 
@@ -24,7 +23,6 @@ function drawingTriangle(nLines){
 // ChessBoard
 
 //chessBoard(10);
-
 function chessBoard(nLines){
     for (let i = 0; i < nLines; i++){
         if (i % 2 == 0) { lineContent = "|O|"; }
@@ -41,6 +39,7 @@ function chessBoard(nLines){
 }
 
 // Verifying Palindromes
+
 // palindromeCheck("HanNAh");
 function palindromeCheck(string){
     let Word = string.toLowerCase();
@@ -52,7 +51,6 @@ function palindromeCheck(string){
 // A different Program
 
 //differentProgram();
-
 function differentProgram(){
     for (let i = 0; i < 100; i++){
         if (i % 3 == 0 && i % 5 == 0){
@@ -78,7 +76,6 @@ function differentProgram(){
 
  // console.log( Max(5, 10) );
  // console.log( Min(5, 10) );
-
 function Max(n1, n2) { return n1 > n2? n1 : n2 }
 function Min(n1, n2) { return n1 > n2? n2 : n1 }
 
@@ -86,16 +83,21 @@ function Min(n1, n2) { return n1 > n2? n2 : n1 }
 
  // console.log( mod2(12) );
  // console.log( mod(12, 10) );
-
 function mod2(number){ return number % 2 == 0? true : false }
 function mod(number, mod){ return number % mod == 0? true : false }
 
 // Counting characters
 
 // console.log(countChars("Eu gosto do pao", "o"));
-
 function countChars(phrase, character){
     return phrase.split("").reduce( (number, currentValue) => { return character == currentValue? number += 1 : number }, 0 );
 }
 
 //=======================================================================================================================================================
+
+// Part 3 - Arrays and Objects
+
+// Reversing an array
+
+ //console.log(reverseArray(["Inicio", 1, 2, 3, 4, 5, "Fim"]));
+function reverseArray(array){ return array.reverse().join(); }
