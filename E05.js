@@ -69,8 +69,11 @@ function differentProgram(){
 // Part 2 - Functions
 
 // Minimum and Maximum
-Max(5, 10);
-function Max(n1, n2) { return n1 > n2 ? n1 : n2 }
-function Min(n1, n2) { return n1 > n2 ? n2 : n1 }
+// Max(5, 10);
+function Max(n1, n2) { return n1 > n2? n1 : n2 }
+function Min(n1, n2) { return n1 > n2? n2 : n1 }
 
-
+// Recursion
+// mod2(12);
+function mod2(number){ return number % 2 == 0? true : false }
+function mod(number, mod){ return number % mod == 0? true : false }
