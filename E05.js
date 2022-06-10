@@ -5,7 +5,7 @@
 
 // Part 1 - Basic Concepts
 
-// Function 1: Build a function in JS that prints a triangle in the console
+// Drawing a Triangle
 //drawingTriangle(10);
 function drawingTriangle(nLines){
     for (let i = 0; i < nLines; i++){
@@ -19,7 +19,7 @@ function drawingTriangle(nLines){
     }
 }
 
-// Function 2: Build a function in JS that prints a chessboard in the console
+// ChessBoard
 //chessBoard(10);
 function chessBoard(nLines){
     for (let i = 0; i < nLines; i++){
@@ -36,8 +36,8 @@ function chessBoard(nLines){
     }
 }
 
-// Function 3: Build a function in JS that checks if a given word is a palindrome
-palindromeCheck("HanNAh");
+// Verifying Palindromes
+// palindromeCheck("HanNAh");
 function palindromeCheck(string){
     let Word = string.toLowerCase();
     let WordReversed = Word.split().reverse().join();
@@ -45,7 +45,7 @@ function palindromeCheck(string){
     else console.log("It is not a palindrome");
 }
 
-// Function 4: Build a function in JS that prints numbers 1 to 100 with some excepions
+// A different Program
 //differentProgram();
 function differentProgram(){
     for (let i = 0; i < 100; i++){
@@ -63,6 +63,14 @@ function differentProgram(){
         }
     }
 }
+
 //===================================================================================================================================================
 
-// Part 2
+// Part 2 - Functions
+
+// Minimum and Maximum
+Max(5, 10);
+function Max(n1, n2) { return n1 > n2 ? n1 : n2 }
+function Min(n1, n2) { return n1 > n2 ? n2 : n1 }
+
+
